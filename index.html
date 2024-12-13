@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage-Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="box">
+                <form onsubmit="calculateMarks(event)" class="form_container" id="calculateForm">
+                    <div class="form_element">
+                        <label for="english">ENGLISH LANG & LIT.</label>
+                        <input type="number" placeholder="MARK" id="english" name="english"  min="0"
+                        max="100"/>
+                    </div>
+                    <div class="form_element">
+                        <label for="hindi">HINDI COURSE-A</label>
+                        <input type="number" placeholder="MARK" id="hindi" name="hindi"  min="0"
+                        max="100"/>
+                    </div>
+                    <div class="form_element">
+                        <label for="math">MATHEMATICS</label>
+                        <input type="number" placeholder="MARK" id="math" name="math" min="0"
+                        max="100" />
+                    </div>
+                    <div class="form_element">
+                        <label for="science">SCIENCE</label>
+                        <input type="number" placeholder="MARK" id="science" name="science"  min="0"
+                        max="100"/>
+                    </div>
+                    <div class="form_element">
+                        <label for="social">SOCIAL SCIENCE</label>
+                        <input type="number" placeholder="MARK" id="social" name="social"  min="0"
+                        max="100"/>
+                    </div>
+                    <div class="form_element">
+                        <label for="sanskrit">SANSKRIT</label>
+                        <input type="number" placeholder="MARK" id="sanskrit" name="sanskrit"  min="0"
+                        max="100"/>
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+            <div class="content">
+                <h2>Calculate Your</h2>
+                <h1>Percentage</h1>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
